@@ -2,11 +2,11 @@ package com.company.dot20;
 
 
 public class User {
-    String name;
+    protected String name;
     User(String name){
         this.name = name;
     }
-    void sayHi(){
+    public void sayHi(){
         System.out.println("hi! " + this.name);
     }
 

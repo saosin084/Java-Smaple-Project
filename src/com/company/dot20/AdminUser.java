@@ -5,12 +5,12 @@ public class AdminUser extends User {
         super(name);
     }
 
-    void sayHello() {
+    public void sayHello() {
         System.out.println("hello! " + this.name);
     }
     //override
     @Override
-    void sayHi(){
+    public void sayHi(){
         System.out.println("[admin] hi! " + this.name);
     }
 }
